@@ -11,7 +11,7 @@ import (
 	"github.com/stripe/stripe-go/v76/checkout/session"
 )
 
-const domain = "https://vidstack-saq7.onrender.com"
+const domain = "https://vidstack-4.polsia.app/pricing"
 
 var plans = map[string]string{
 	"starter":  "price_1TfRFdPxwjKtw7b1OGnUYtgw",
