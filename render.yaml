@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: vidstack
+    runtime: go
+    buildCommand: go build -o app .
+    startCommand: ./app
+    envVars:
+      - key: STRIPE_SECRET_KEY
+        sync: false
